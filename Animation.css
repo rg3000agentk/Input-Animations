@@ -70,3 +70,63 @@ body {
 .form input:valid + .label-name::after {
   transform: translateX(0%);
 }
+
+/* Age Label */
+.content-age {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form input:focus + .label-age .content-age,
+.form input:valid + .label-age .content-age {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+
+.form input:focus + .label-age::after,
+.form input:valid + .label-age::after {
+  transform: translateX(0%);
+}
+
+/* Email Label */
+.content-email {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form input:focus + .label-email .content-email,
+.form input:valid + .label-email .content-email {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+
+.form input:focus + .label-email::after,
+.form input:valid + .label-email::after {
+  transform: translateX(0%);
+}
+
+/* Contact Label */
+.content-phone {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form input:focus + .label-phone .content-phone,
+.form input:valid + .label-phone .content-phone {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+
+.form input:focus + .label-phone::after,
+.form input:valid + .label-phone::after {
+  transform: translateX(0%);
+}
